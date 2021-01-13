@@ -1,0 +1,450 @@
+html,body{
+	height:100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Avenir;
+	color:#ffffff;
+}
+
+#lagyanan{
+	width: 100%;
+	height: 1216px;
+	background-color: #121212;
+	position: absolute;
+}
+
+#navbar{
+	width:100%;
+	background-color: #1f1f1f;
+	box-shadow: 0px 3px 10px -5px black;
+    position: absolute  ;
+    height:80px;
+    padding: 4px;
+}
+
+#navbar ul{
+	display: inline-flex;
+	margin: 50 px;
+}
+
+#navbar ul li{
+	list-style: none;
+	margin: 10px 20px;
+	color: #FFFFFF;
+}
+
+li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	display:block;
+}
+
+li a:hover {
+	background-color:#383838;
+	text-align: center;
+}
+
+#footer{
+	width:100%;
+	background-color: #1f1f1f;
+	box-shadow: 0px 3px 10px -5px black;
+    bottom: 0px;
+    position:absolute;
+}
+
+#footer ul{
+	display: inline-flex;
+	margin: 50 px;
+}
+
+#footer ul li{
+	list-style: none;
+	margin: 20px 20px;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+#footer{
+    display:none;
+}
+
+#essaybox1{
+    background-color: #1e1e1e;
+	top: 100px;
+	position:absolute;
+	color: #FFFFFF;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+#essay1 {
+	width: 100%;
+	float: left;
+}
+
+#essay1 p{
+	padding: 20px;
+	text-indent: 40px;
+}
+
+#essaybox2{
+    background-color: #1e1e1e;
+	top: 416px;
+	position:absolute;
+	color: #FFFFFF;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+#essay2 {
+	width: 100%;
+	float: left;
+}
+
+#essay2 p{
+	padding: 20px;
+	text-indent: 40px;
+}
+
+#essaybox3{
+    background-color: #1e1e1e;
+	top: 1044px;
+	position:absolute;
+	color: #FFFFFF;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+#essay3 {
+	width: 100%;
+	float: left;
+}
+
+#essay3 p{
+	padding: 20px;
+	text-indent: 40px;
+}
+
+#image1{
+    display:none;
+}
+
+#image2{
+    display:none;
+}
+
+#image3{
+    display:none;
+}
+
+@media only screen and (min-width: 1024px){
+    #footer{
+        position: absolute;
+        bottom: 0px;
+        font-size:20px;
+        display:block;
+    }
+    #lagyanan{
+        width: 100%;
+        height: 2380px;
+        background-color: #121212;
+        position: absolute;
+    }
+    #navbar{
+        width:100%;
+        background-color: #1f1f1f;
+        box-shadow: 0px 3px 10px -5px black;
+        position: absolute;
+        height:59px;
+        padding: 4px;
+        font-size:20px;
+    }
+    
+    #essaybox1{
+        background-color: #1e1e1e;
+        width: 100%;
+        height: 304px;
+        top: 80px;
+        position: absolute;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay1 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay1 p{
+        padding: 20px;
+        width: 100%;
+        line-height:35px;
+        text-indent: 40px;
+        font-size: 30px;
+    }
+    
+    #essaybox2{
+        background-color: #1e1e1e;
+        width: 100%;
+        height: 530px;
+        top: 983px;
+        position: absolute;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay2 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay2 p{
+        padding: 20px;
+        width: auto;
+        line-height:35px;
+        font-size: 30px;
+        text-indent: 40px;
+    }
+    
+    #essaybox3{
+        background-color: #1e1e1e;
+        width: 100%;
+        height:161px;
+        top: 2110px;
+        position: absolute;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay3 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay3 p{
+        padding: 20px;
+        width: 100%;
+        line-height:35px;
+        text-indent: 40px;
+        font-size: 30px;
+    }
+   
+    #image1{
+        height: 560px;
+        width: 100%;
+        top:403px;
+        background:#1e1e1e;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display: block;
+    }
+    
+    #picture1{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+        display:block;
+        width: 100%;
+    }
+
+    #image2{
+        width: 40%;
+        background:#1e1e1e;
+        top:1540px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display: block;
+        left:90px;
+    }
+
+    #picture2{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+        display:block;
+        width: 100%;
+    }
+
+    #image3{
+        width: 40%;
+        background:#1e1e1e;
+        top:1540px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display: block;
+        right:90px;
+    }
+
+    #picture3{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+        display:block;
+    }
+
+    #picture3 img{
+        width: 414px;
+        height:504px;
+    }
+
+}
+
+@media only screen and (min-width:2560px){
+    #footer{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        font-size:30px;
+    }
+    #lagyanan{
+        width: 100%;
+        height: 1600px;
+        background-color: #121212;
+        position: absolute;
+    }
+    #navbar{
+        width:100%;
+        background-color: #1f1f1f;
+        box-shadow: 0px 3px 10px -5px black;
+        position: absolute;
+        height:80px;
+        padding: 4px;
+        font-size:30px;
+    }
+
+    #essaybox1{
+        background-color: #1e1e1e;
+        width: 39%;
+        height: 15%;
+        top: 14%;
+        position: absolute;
+        right: 300px;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay1 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay1 p{
+        padding: 20px;
+        width: 100%;
+        line-height:35px;
+        text-indent: 40px;
+        font-size: 30px;
+    }
+    
+    #essaybox2{
+        background-color: #1e1e1e;
+        width: 50%;
+        height: 26%;
+        top: 40%;
+        position: absolute;
+        left: 150px;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay2 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay2 p{
+        padding: 20px;
+        width: auto;
+        line-height:35px;
+        font-size: 30px;
+        text-indent: 40px;
+    }
+    
+    #essaybox3{
+        background-color: #1e1e1e;
+        width: 35%;
+        height: 9%;
+        top: 73.5%;
+        position: absolute;
+        right: 400px;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #essay3 {
+        width: 100%;
+        float: left;
+    }
+    
+    #essay3 p{
+        padding: 20px;
+        width: 100%;
+        line-height:35px;
+        text-indent: 40px;
+        font-size: 30px;
+    }
+    
+    #image1{
+        height: 25%;
+        width: 29%;
+        top:10%;
+        background:#1e1e1e;
+        left: 300px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display: block;
+    }
+    
+    #picture1 img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+        display:block;
+        width: 100%;
+    }
+    
+    #image2{
+        height: 24%;
+        width: 20%;
+        top:41.2%;
+        background:#1e1e1e;
+        left:1591.64px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display:block;
+    }
+    
+    #picture2 img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:20px;
+        display:block;
+        width: 50%;
+    }
+    
+    #image3{
+        height: 20%;
+        width: 20%;
+        top:68%;
+        background:#1e1e1e;
+        left: 500px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        display:block;
+    }
+    
+    #picture3 img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display:block;
+        width: 50%;
+        height:100%;
+    }
+    
+
+}

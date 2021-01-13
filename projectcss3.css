@@ -1,0 +1,331 @@
+html,body{
+	height:100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Avenir;
+	color:#ffffff;
+}
+
+#lagyanan{
+	width: 100%;
+	height: 1642.41px;
+	background-color: #121212;
+	position: absolute;
+}
+
+#navbar{
+	width:100%;
+	background-color: #1f1f1f;
+	box-shadow: 0px 3px 10px -5px black;
+    position: absolute  ;
+    height:80px;
+    padding: 4px;
+}
+
+#navbar ul{
+	display: inline-flex;
+	margin: 50 px;
+}
+
+#navbar ul li{
+	list-style: none;
+	margin: 10px 20px;
+	color: #FFFFFF;
+}
+
+li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	display:block;
+}
+
+li a:hover {
+	background-color:#383838;
+	text-align: center;
+}
+
+#footer{
+	width:100%;
+	background-color: #1f1f1f;
+	box-shadow: 0px 3px 10px -5px black;
+    bottom: 0px;
+    position:absolute;
+    display:none;
+}
+
+#footer ul{
+	display: inline-flex;
+	margin: 50 px;
+}
+
+#footer ul li{
+	list-style: none;
+	margin: 20px 20px;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+#aboutmebox{
+	background-color: #1e1e1e;
+	width: 90%;
+	height: auto;
+	top: 100px;
+	position: absolute;
+    color: #FFFFFF;
+    left:19px;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+#aboutme{
+    padding:10px;
+    width:100%;
+}
+
+#aboutme p{
+    text-indent:40px;
+}
+
+#image{
+	top:468px;
+	position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    left:52px;
+}
+
+#image img{
+	width: 256px;
+	height: 256px;
+}
+
+#image2{
+	top:744px;
+	position: absolute;
+}
+
+#image2 img{
+    width:100%;
+}
+
+#image3 {
+    top:973.05px;
+    left:52px;
+    position: absolute;
+}
+
+#image3 img{
+	height: 256px;
+	width: 256px;
+}
+
+#image4 {
+    top:1249.05px;
+    position: absolute;
+}
+
+#image4 img{
+    width:100%
+}
+
+#image5{
+    top:1521.05px;
+    position:absolute;
+}
+
+#image5 img{
+    width:100%;
+}
+
+@media only screen and (min-width: 1024px){
+    #footer{
+        position: absolute;
+        bottom: 0px;
+        font-size:20px;
+        display:block;
+    }
+    #lagyanan{
+        width: 100%;
+        height: 1366px;
+        background-color: #121212;
+        position: absolute;
+    }
+    #navbar{
+        width:100%;
+        background-color: #1f1f1f;
+        box-shadow: 0px 3px 10px -5px black;
+        position: absolute;
+        height:59px;
+        padding: 4px;
+        font-size:20px;
+    }
+    #aboutmebox{
+        background-color: #1e1e1e;
+        width: 90%;
+        height: auto;
+        top: 79px;
+        position: absolute;
+        color: #FFFFFF;
+        left:51.205px;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #aboutme{
+        padding:10px;
+        width:100%;
+    }
+    
+    #aboutme p{
+        text-indent:40px;
+        font-size:20px;
+    }
+    
+    #image{
+        top:315px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        left:52px;
+    }
+    
+    #image img{
+        width: 384px;
+        height: 384px;
+    }
+    
+    #image2{
+        top:744px;
+        position: absolute;
+        left:52px;
+    }
+    
+    #image2 img{
+        width:384px;
+    }
+    
+    #image3 {
+        top:315px;
+        left:588px;
+        position: absolute;
+    }
+    
+    #image3 img{
+        height: 384px;
+        width: 384px;
+    }
+    
+    #image4 {
+        top:744px;
+        position: absolute;
+        left:588px;
+    }
+    
+    #image4 img{
+        width:384px;
+    }
+    
+    #image5{
+        top:1050.8px;
+        position:absolute;
+        left:162px;
+    }
+    #image5 img{
+        width:700px;
+    }
+}
+
+@media only screen and (min-width:2560px){
+    #footer{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        font-size:30px;
+    }
+    #lagyanan{
+        width: 100%;
+        height: 1600px;
+        background-color: #121212;
+        position: absolute;
+    }
+    #navbar{
+        width:100%;
+        background-color: #1f1f1f;
+        box-shadow: 0px 3px 10px -5px black;
+        position: absolute;
+        height:80px;
+        padding: 4px;
+        font-size:30px;
+    }
+
+    #aboutmebox{
+        background-color: #1e1e1e;
+        width: 50%;
+        height: 800px;
+        top: 200px;
+        position: absolute;
+        color: #FFFFFF;
+        left:1228px;
+        box-shadow: 0px 0px 20px 0px black;
+    }
+    
+    #aboutme{
+        padding:10px;
+        width:100%;
+    }
+    
+    #aboutme p{
+        text-indent:40px;
+        font-size:50px;
+    }
+    
+    #image{
+        top:1050px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px black;
+        left:1676px;
+    }
+    
+    #image img{
+        width: 384px;
+        height: 384px;
+    }
+    
+    #image2{
+        top:744px;
+        position: absolute;
+        left:52px;
+    }
+    
+    #image2 img{
+        width:384px;
+    }
+    
+    #image3 {
+        top:1050.8px;
+        left:345px;
+        position: absolute;
+    }
+    
+    #image3 img{
+        height: 384px;
+        width: 384px;
+    }
+    
+    #image4 {
+        top:744px;
+        position: absolute;
+        left:588px;
+    }
+    
+    #image4 img{
+        width:384px;
+    }
+    
+    #image5{
+        top:315px;
+        position:absolute;
+        left:100px;
+    }
+    #image5 img{
+        width:900px;
+    }
+}
