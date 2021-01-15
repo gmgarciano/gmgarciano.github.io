@@ -1,6 +1,12 @@
 html,body{
 	height:100%;
 }
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Quicksand;
+	color:#ffffff;
+}
 
 #lagyanan{
 	width: 100%;
@@ -82,10 +88,10 @@ li a:hover {
 }
 
 #image{
-	top:468px;
+	top:480px;
 	position: absolute;
-    box-shadow: 0px 0px 20px 0px black;
-    left:52px;
+    	box-shadow: 0px 0px 20px 0px black;
+    	left:52px;
 }
 
 #image img{

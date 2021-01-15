@@ -2,9 +2,16 @@ html,body{
 	height:100%;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Quicksand;
+	color:#ffffff;
+}
+
 #lagyanan{
 	width: 100%;
-	height: 1216px;
+	height: 1226px;
 	background-color: #121212;
 	position: absolute;
 }
@@ -102,7 +109,7 @@ li a:hover {
 
 #essaybox3{
     background-color: #1e1e1e;
-	top: 1044px;
+	top: 1060px;
 	position:absolute;
 	color: #FFFFFF;
 	box-shadow: 0px 0px 20px 0px black;
@@ -156,7 +163,7 @@ li a:hover {
     #essaybox1{
         background-color: #1e1e1e;
         width: 100%;
-        height: 304px;
+        height: 264px;
         top: 80px;
         position: absolute;
         color: #FFFFFF;
@@ -179,8 +186,8 @@ li a:hover {
     #essaybox2{
         background-color: #1e1e1e;
         width: 100%;
-        height: 530px;
-        top: 983px;
+        height: 560px;
+        top: 953px;
         position: absolute;
         color: #FFFFFF;
         box-shadow: 0px 0px 20px 0px black;
@@ -225,7 +232,7 @@ li a:hover {
     #image1{
         height: 560px;
         width: 100%;
-        top:403px;
+        top:373px;
         background:#1e1e1e;
         position: absolute;
         box-shadow: 0px 0px 20px 0px black;
@@ -335,8 +342,8 @@ li a:hover {
     #essaybox2{
         background-color: #1e1e1e;
         width: 50%;
-        height: 26%;
-        top: 40%;
+        height: 28%;
+        top: 38%;
         position: absolute;
         left: 150px;
         color: #FFFFFF;
@@ -403,7 +410,7 @@ li a:hover {
     #image2{
         height: 24%;
         width: 20%;
-        top:41.2%;
+        top:40%;
         background:#1e1e1e;
         left:1591.64px;
         position: absolute;
